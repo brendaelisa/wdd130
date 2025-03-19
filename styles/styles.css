@@ -28,14 +28,6 @@ nav {
 }
 
 aside {
-    width: 300px;
-    margin: 20px auto;
-    border: 1px solid #ccc;
-    padding: 15px;
-    background-color: #f9f9f9;
-    color: #333;
-}
-aside {
   width: 60%;
   margin: 20px auto;
   border: 2px solid #333;
@@ -48,6 +40,7 @@ aside img {
   width: 200px;
   height: auto;
   border-radius: 8px; /* Optional: Adds rounded corners */
+  margin-left: 0%;
 }
 
 main {
