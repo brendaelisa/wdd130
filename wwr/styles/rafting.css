@@ -102,7 +102,7 @@ article img {
     margin-top: 0; /* Reduce el margen superior */
     padding-top: 0; /* Reduce el padding superior */
     position: relative; 
-    top: -30px; /* Esto "sube" el título */
+    top: -20px; /* Esto "sube" el título */
 }
 
 .hero {
@@ -115,6 +115,7 @@ article img {
 }
 
 .floating-box {
+
     position: absolute;
     top: 20px; /* Ajusta según el lugar deseado */
     left: 10px; /* Ajusta según el lugar deseado */
@@ -126,6 +127,7 @@ article img {
     text-align: center;
     flex-direction: horizontal
 }
+
 
 .float-img {
     width: 50%;
