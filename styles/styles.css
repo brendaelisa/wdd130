@@ -1,7 +1,61 @@
+:root {
+  /* Primary Colors */
+  --primary-color: #000808;
+  --secondary-color: #000808;
+  --accent1-color: #F4A261;
+  --accent2-color: #E76F51;
+  
+  /* Fonts */
+  --heading-font: 'Montserrat', sans-serif;
+  --text-font: 'Open Sans', sans-serif;
+
+  /* Font Sizes */
+  --font-size-base: 16px;
+  --font-size-large: 20px;
+  --font-size-small: 14px;
+
+  /* Spacing & Layout */
+  --line-height: 1.5;
+  --padding-base: 16px;
+  --margin-base: 20px;
+}
+body {
+  font-family: var(--text-font);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height);
+  color: var(--primary-color);
+}
+
+h1, h2, h3 {
+  font-family: var(--heading-font);
+  color: var(--secondary-color);
+}
+
+button {
+  background-color: var(--accent1-color);
+  color: white(255, 255, 255, 0.945);
+  font-size: var(--font-size-large);
+  padding: var(--padding-base) var(--padding-base);
+}
+.container {
+  padding: var(--padding-base);
+  margin: var(--margin-base);
+}
+
+.card {
+  background-color: var(--accent2-color);
+  color: white;
+  border-radius: 8px;
+  padding: var(--padding-base);
+}
+
+
 nav {
-    background-color: darkblue;
-    padding: 10px;
-  }
+  background-color: rgb(0, 100, 139);
+  padding: 10px;
+}
+
+
   
   nav a {
     color: white;
@@ -10,7 +64,7 @@ nav {
   }
   
   h1 {
-    color: darkblue;
+    color: rgb(5, 0, 12);
   }
   img {
     width: 150px;
@@ -33,7 +87,7 @@ aside {
   border: 2px solid #333;
   padding: 15px;
   background-color: #f4f4f4;
-  color: #333;
+  color: #000808;
   text-align: center;
 }
 aside img {
