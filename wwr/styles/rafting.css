@@ -10,10 +10,12 @@
 /* General Body and Layout */
 body {
     font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 20px;
+    border-top-left-radius: 10px;
     background-color: #f4f4f4;
 }
+
 
 header {
     background-color: var(--primary-color);
@@ -97,17 +99,48 @@ article img {
     font-family: 'Open Sans', sans-serif;
 }
 
+
+.hero {
+    position: relative;
+}
+
+.hero-image {
+    width: 100%;
+    display: block;
+}
+
+.floating-box {
+    position: absolute;
+    top: 20px; /* Ajusta según el lugar deseado */
+    left: 20px; /* Ajusta según el lugar deseado */
+    background-color: rgba(59, 125, 168, 0.9); /* Fondo blanco con más opacidad */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
+    max-width: 250px; /* Ajusta el tamaño del cuadro */
+    text-align: center;
+}
+
+.float-img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px; /* Bordes redondeados para la imagen */
+    flex-direction: horizontal;
+}
+
+
 /* Adventure Section */
 .rafting-images {
     display: flex;
-    flex-direction: column; /* Alineación vertical */
-    gap: 20px; /* Espacio entre imágenes */
-    align-items: center; /* Centrar las imágenes */
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
 }
 
 .rafting-images img {
     width: 100%;
-    max-width: 300px; /* Limitar el tamaño máximo de las imágenes */
+    max-width: 300px;
     margin-bottom: 10px;
 }
 
