@@ -41,7 +41,60 @@ header nav ul li a {
     text-decoration: none;
     font-weight: bold;
 }
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#history {
+    padding: 2rem;
+    background-color: white;
+}
+
+#adventures {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem;
+    background-color: #76C7C0;
+}
+
+#adventures figure {
+    text-align: center;
+    margin: 1rem;
+}
+
+#adventures img {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E76F51;
+    padding: 1rem;
+    color: white;
+}
+
+.social-icons img {
+    height: 30px;
+    margin-left: 10px;
+}
 /* Hero Section */
 /* Hero Section */
 .hero {
