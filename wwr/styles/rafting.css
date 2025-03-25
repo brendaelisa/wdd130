@@ -164,13 +164,13 @@ footer {
 
 .hero h1 {
     position: absolute;
-    top: 50%;  /* Centrado vertical */
+    top: 20%;  /* Ajusta la posición vertical para que esté sobre el box */
     left: 50%;  /* Centrado horizontal */
-    transform: translate(-50%, -50%);  /* Ajuste para el centrado exacto */
+    transform: translateX(-50%);  /* Centrado exacto solo horizontal */
     color: white;
     font-size: 3em;
     font-family: 'Montserrat', sans-serif;
-    z-index: 1;  /* El título estará por encima de la imagen */
+    z-index: 2;  /* Asegura que el título esté encima del floating box */
 }
 
 /* Main Content */
@@ -213,17 +213,19 @@ article img {
     width: 100%;
     display: block;
 }
-
 .floating-box {
+    position: relative; /* Permite usar 'top' sin afectar otros elementos */
     display: flex;
-    flex-direction: row; /* Hace que la imagen y el texto estén alineados en fila */
-    align-items: center; /* Centra verticalmente */
+    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
-    background-color: rgba(255, 255, 255, 0.9)
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
     border-radius: 10px;
     max-width: 80%;
     margin: 20px auto;
+    top: 200px; /* Baja el box sin afectar su margen */
+    z-index: 1; /* Asegura que no tape el título */
 }
 
 .float-img {
