@@ -57,6 +57,29 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
 }
+#history h2 {
+    text-align: center;
+    font-size: 2rem; /* Ajusta el tamaño si es necesario */
+    margin-bottom: 20px; /* Espaciado opcional debajo del título */
+}
+
+.history-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Espacio entre los elementos */
+    text-align: justify;
+}
+
+.history-container img {
+    max-width: 20%; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    border-radius: 10px; /* Bordes redondeados opcionales */
+}
+
+.history-container p {
+    max-width: 35%; /* Limita el ancho del texto */
+}
 
 #history {
     padding: 2rem;
@@ -75,12 +98,38 @@ nav ul li a {
     text-align: center;
     margin: 1rem;
 }
+#adventures h2 {
+    text-align: center;
+    font-size: 2rem; /* Ajusta el tamaño si es necesario */
+    margin-bottom: 20px; /* Espaciado opcional debajo del título */
+}
 
 #adventures img {
     width: 200px;
     height: 150px;
     border-radius: 10px;
 }
+.adventure-gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columnas iguales */
+    gap: 20px; /* Espaciado uniforme entre imágenes */
+    justify-content: center; /* Asegura que todo esté centrado */
+    align-items: center; /* Alinea verticalmente */
+    text-align: center; /* Centra el texto de los captions */
+}
+
+.adventure-gallery figure {
+    margin: 0; /* Evita márgenes innecesarios */
+}
+
+.adventure-gallery img {
+    width: 100%; /* Ajusta el ancho de la imagen al contenedor */
+    height: auto; /* Mantiene la proporción */
+    border-radius: 10px; /* Opcional: Bordes redondeados */
+}
+
+
+
 
 footer {
     display: flex;
@@ -124,8 +173,6 @@ footer {
     z-index: 1;  /* El título estará por encima de la imagen */
 }
 
-
-
 /* Main Content */
 article {
     display: flex;
@@ -168,27 +215,29 @@ article img {
 }
 
 .floating-box {
-
-    position: absolute;
-    top: 20px; /* Ajusta según el lugar deseado */
-    left: 10px; /* Ajusta según el lugar deseado */
-    background-color: rgba(59, 125, 168, 0.9); /* Fondo blanco con más opacidad */
-    padding: 10px;
+    display: flex;
+    flex-direction: row; /* Hace que la imagen y el texto estén alineados en fila */
+    align-items: center; /* Centra verticalmente */
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.9)
+    padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
-    max-width: 250px; /* Ajusta el tamaño del cuadro */
-    text-align: center;
-    flex-direction: horizontal
+    max-width: 80%;
+    margin: 20px auto;
 }
-
 
 .float-img {
-    width: 50%;
+    width: 150px;
     height: auto;
-    margin-bottom: 10px;
-    border-radius: 8px; /* Bordes redondeados para la imagen */
-    flex-direction: horizontal;
+    margin-left: 20px; /* Mueve la imagen hacia la derecha */
 }
+
+.floating-box p {
+    flex: 1;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
 
 
 /* Adventure Section */
