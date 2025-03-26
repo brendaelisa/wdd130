@@ -221,7 +221,7 @@ article img {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: burlywood;
     padding: 20px;
     border-radius: 10px;
     max-width: 80%;
@@ -233,8 +233,9 @@ article img {
 .float-img {
     width: 150px;
     height: auto;
-    margin-left: 20px; /* Mueve la imagen hacia la derecha */
+    margin-left: 5px; /* Mueve la imagen hacia la derecha */
 }
+
 
 .floating-box p {
     flex: 1;
