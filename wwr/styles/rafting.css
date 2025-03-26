@@ -63,19 +63,28 @@ nav ul li a {
     margin-bottom: 20px; /* Espaciado opcional debajo del título */
 }
 
+/* History Section Layout */
 .history-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px; /* Espacio entre los elementos */
+    gap: 20px;
     text-align: justify;
 }
-
 .history-container img {
-    max-width: 20%; /* Ajusta el tamaño de la imagen */
-    height: auto;
-    border-radius: 10px; /* Bordes redondeados opcionales */
+    width: 20%; /* Ajusta el tamaño de la imagen */
+    border-radius: 10px;
 }
+.history-container p {
+    max-width: 40%;
+}
+
+#history {
+    padding: 2rem;
+    background-color: white;
+}
+
+
 
 .history-container p {
     max-width: 35%; /* Limita el ancho del texto */

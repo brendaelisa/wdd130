@@ -13,11 +13,94 @@
     <title>About Us - White Water Rafting</title>
     
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
-
-    <!-- Link to CSS File -->
     <link rel="stylesheet" href="styles/rafting.css">
 
+    <style>
+        /* Header Styling */
+        header {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            align-items: center;
+            padding: 15px 30px;
+            background-color: #1E6091;
+            color: white;
+        }
+        .logo {
+            width: 120px;
+        }
+        nav {
+            display: flex;
+            justify-content: flex-end;
+        }
+        nav ul {
+            display: flex;
+            gap: 25px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        
+        /* History Section Layout */
+        .history-container {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            gap: 20px;
+            align-items: center;
+            max-width: 900px;
+            margin: auto;
+            text-align: justify;
+        }
+        .history-container img {
+            width: 60%;
+            border-radius: 10px;
+            display: block;
+            margin: auto;
+        }
+        
+        
+    
+        /* Adventures Section */
+        .adventure-gallery {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 15px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .adventure-gallery figure {
+            text-align: center;
+        }
+        .adventure-gallery img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        
+        /* Footer Styling */
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #1E6091;
+            color: white;
+        }
+        .social-media {
+            display: flex;
+            gap: 15px;
+        }
+        .social-media img {
+            width: 30px;
+        }
+    </style>
 </head>
 
 <body>
@@ -51,6 +134,7 @@
     <section id="history">
         <h2>Our History</h2>
         <div class="history-container">
+
             <p>Founded in 1998, Rafting Adventures has been providing thrilling whitewater experiences...</p>
             <img src="images/rafting58_600.webp" alt="Rafting History">
             <p>Our experienced guides ensure that every adventure is safe, fun, and unforgettable...</p>
@@ -81,8 +165,8 @@
                 <img src="images/raftrapid.webp" alt="Extreme Challenge">
                 <figcaption>Extreme Challenge</figcaption>
             </figure>
-        </div> <!-- Cierre de adventure-gallery -->
-    </section> <!-- Cierre de adventures -->
+        </div>
+    </section>
 
     <!-- Footer Section -->
     <footer>
@@ -93,7 +177,6 @@
             <a href="https://www.instagram.com" target="_blank"><img src="images/logoinstagram.webp" alt="Instagram"></a>
         </div>
     </footer>
-
 </body>
 
 </html>
