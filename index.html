@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<link rel="stylesheet" href="./styles/styles.css">
+<head>
+    <link rel="stylesheet" href="./styles/styles.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Brenda Basilico - WDD 130. Learning web development and programming.">
@@ -12,20 +13,30 @@
         <nav>
             <a href="#">Home</a>
             <a href="./wwr/index.html">Rafting Website</a>
+            <a href="https://www.linkedin.com">LinkedIn</a>
+            <a href="https://www.facebook.com">Facebook</a>
         </nav>
     </header>
-<!-- This is an HTML comment -->
-    <main>
-        <h1>Brenda Basilico | WDD 130</h1>
-        <img src="profile.webp" alt="Brenda Basilico" width="150">
-        <p>Hi! I am Brenda Basilico. I like to learn new things, so I am looking forward to learning how to program.</p>
-    </main>
-    <aside>
-        <h2>Argentina</h2>
-        <img src="argentina.webp" alt="Argentina landscape" width="200">
-        <p>Argentina is a beautiful country in South America, known for its diverse landscapes, tango, and delicious food.</p>
-    </aside>
+    
+    <div class="grid">
+        <aside>
+            <h2>Argentina</h2>
+            <img src="argentina.webp" alt="Argentina landscape">
+            <p>Argentina is a beautiful country in South America, known for its diverse landscapes, tango, and delicious food.</p>
+        </aside>
 
+        <main>
+            <h1>Brenda Basilico | WDD 130</h1>
+            <div class="profile-container">
+                <img src="profile.webp" alt="Brenda Basilico" width="150">
+                <div class="profile-text">
+                    <p>Hello! My name is Brenda Basilico, and I am passionate about learning new things. I am currently studying web development and programming, and I enjoy exploring different technologies to expand my skill set. My goal is to become proficient in front-end and back-end development to create dynamic and engaging websites.</p>
+                    <p>Besides coding, I love traveling, reading books on personal development, and discovering new cultures. I believe that continuous learning is key to success, and I am always looking for opportunities to improve and grow. I am excited about the journey ahead and eager to contribute to the world of technology!</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    
     <footer>
         <p>&copy;2025 ❖ Brenda Basilico ❖ Buenos Aires, Argentina</p>
     </footer>
