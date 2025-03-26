@@ -65,18 +65,22 @@ nav ul li a {
 
 /* History Section Layout */
 .history-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    text-align: justify;
+    display: flex; /* Cambia a Flexbox para controlar mejor la disposición */
+    justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
+    align-items: center; /* Alinea verticalmente el texto y la imagen */
+    gap: 20px; /* Agrega un espacio uniforme entre elementos */
+    max-width: 1200px; /* Limita el ancho máximo del contenedor */
+    margin: auto; /* Centra el contenedor en la página */
+    text-align: justify; /* Justifica el texto para un acabado profesional */
 }
 .history-container img {
-    width: 10%; /* Ajusta el tamaño de la imagen */
-    border-radius: 5px;
+    flex-shrink: 0; /* Evita que la imagen cambie de tamaño innecesariamente */
+    width: 300px; /* Define un ancho específico para la imagen */
+    border-radius: 10px; /* Suaviza las esquinas de la imagen */
 }
 .history-container p {
-    max-width: 35%;
+    flex: 1; /* Permite que el texto de ambos lados ocupe el mismo espacio */
+    margin: 0; /* Elimina cualquier margen adicional del texto */
 }
 
 #history {
