@@ -72,27 +72,16 @@ nav ul li a {
     text-align: justify;
 }
 .history-container img {
-    width: 20%; /* Ajusta el tamaño de la imagen */
-    border-radius: 10px;
+    width: 10%; /* Ajusta el tamaño de la imagen */
+    border-radius: 5px;
 }
 .history-container p {
-    max-width: 40%;
+    max-width: 35%;
 }
 
 #history {
     padding: 2rem;
-    background-color: white;
-}
-
-
-
-.history-container p {
-    max-width: 35%; /* Limita el ancho del texto */
-}
-
-#history {
-    padding: 2rem;
-    background-color: white;
+    background-color: burlywood;
 }
 
 #adventures {
