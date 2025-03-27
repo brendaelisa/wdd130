@@ -181,12 +181,30 @@ article {
     align-items: center;
     margin: 20px;
 }
+/* Alineación de la imagen a la derecha dentro del artículo */
+article {
+    display: flex;
+    flex-direction: row-reverse; /* Esto coloca la imagen a la derecha */
+    align-items: center; /* Alinea verticalmente el contenido */
+    gap: 20px; /* Espaciado entre el texto y la imagen */
+    margin: 20px 0;
+}
 
 article img {
-    width: 200px;
-    height: auto;
-    margin-right: 20px;
+    max-width: 50%; /* Asegura que la imagen no ocupe demasiado espacio */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
 }
+
+
+
+section {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px; /* Para mantener un ancho uniforme */
+}
+
 
 .history, .adventure {
     margin: 20px;
