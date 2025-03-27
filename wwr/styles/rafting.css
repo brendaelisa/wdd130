@@ -18,45 +18,35 @@ body {
 
 
 header {
-    background-color: var(--primary-color);
-    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1E6091
 }
 
 header .logo {
-    max-width: 150px;
+    max-width: 150px;  /* Ajusta el tamaño del logo */
 }
 
-header nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-header nav ul li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
 nav ul {
-    display: flex;
     list-style: none;
-    padding: 0;
+    display: flex;
     margin: 0;
+    padding: 0;
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin-left: 20px; /* Espacio entre los elementos de la lista */
 }
 
 nav ul li a {
-    color: white;
     text-decoration: none;
-    font-weight: bold;
+    color: white;  /* Usa el color principal de tu paleta */
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 700;
 }
+
 #history h2 {
     text-align: center;
     font-size: 2rem; /* Ajusta el tamaño si es necesario */
