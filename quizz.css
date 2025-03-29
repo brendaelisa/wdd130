@@ -1,0 +1,85 @@
+/* Apply a universal reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    color: #333;
+    background: #f4f4f4;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  header {
+    margin-bottom: 1.5rem;
+  }
+  
+  h1 {
+    color: #1E6091;
+  }
+  
+  form {
+    width: 60%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    display: grid;
+    gap: 1rem;
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
+  legend {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #76C7C0;
+  }
+  
+  .form-item {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 0.75rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #1E6091;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #E76F51;
+  }
+  
+  footer {
+    margin-top: 1.5rem;
+    font-size: 0.9em;
+    color: #777;
+  }
+  
