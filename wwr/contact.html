@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with White Water Rafting. Find our contact details, location, and reach out for inquiries or reservations.">
+    <title>Contact Us - White Water Rafting</title>
+
+    <!-- Link to CSS File -->
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body class="contact-page"> <!-- Se agregó la clase aquí -->
+
+    <!-- Header Section -->
+    <header>
+        <img src="images/zsplash.webp" alt="White Water Rafting Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact Us</h1>
+
+        <section class="company-info">
+            <h2>Our Location</h2>
+            <p>123 Rapids Lane, River City, RC 45678</p>
+            <p>Phone: +1 (555) 123-4567</p>
+            <p>Email: contact@whitewaterrafting.com</p>
+            <iframe src="https://www.google.com/maps/embed?..." width="600" height="450" allowfullscreen></iframe>
+        </section>
+
+        <section class="team">
+            <h2>Meet Our Team</h2>
+            <div class="employee">
+                <img src="images/employee1.webp" alt="John Doe">
+                <p>John Doe - Lead Guide</p>
+            </div>
+            <div class="employee">
+                <img src="images/employee2.webp" alt="Jane Smith">
+                <p>Jane Smith - Customer Support</p>
+            </div>
+            <div class="employee">
+                <img src="images/employee3.webp" alt="Michael Brown">
+                <p>Michael Brown - Operations Manager</p>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <fieldset>
+                    <legend>Purpose of Message:</legend>
+                    <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+                    <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+                    <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
+                </fieldset>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter</label>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 White Water Rafting. All Rights Reserved. Designed by Brenda Basilico</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank"><img src="images/logofacebook.webp" alt="Facebook"></a>
+            <a href="https://www.whatsapp.com" target="_blank"><img src="images/logowhatsapp.webp" alt="WhatsApp"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="images/logoinstagram.webp" alt="Instagram"></a>
+        </div>
+        <p><a href="images/contact-wireframe.png">View Contact Page Wireframe</a></p>
+    </footer>
+
+</body>
+</html>
