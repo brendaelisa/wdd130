@@ -185,10 +185,10 @@ footer {
 
 .employee img {
     width: 150px;
-    height: auto;
+    height: 150px; /* Fijar altura para que todas tengan la misma proporción */
+    object-fit: cover; /* Recorta la imagen si es necesario para mantener el tamaño */
     border-radius: 50%;
 }
-
 .contact-form {
     background-color: burlywood;
     padding: 20px;
