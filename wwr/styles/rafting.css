@@ -9,7 +9,7 @@ body {
 
 h1, h2 {
     font-family: 'Montserrat', sans-serif;
-    color: #1E6091;
+    color: black;
 }
 
 header {
@@ -48,6 +48,22 @@ footer {
     width: 30px;
     margin: 0 5px;
 }
+/* Botón Suscribir en la newsletter */
+.newsletter button {
+    background-color: burlywood; /* Fondo naranja */
+    color: white; /* Texto blanco */
+    border: none; /* Sin bordes */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor a una mano */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Efecto de transición */
+}
+
+/* Efecto hover para el botón */
+.newsletter button:hover {
+    background-color: orangered; /* Cambia a naranja oscuro al pasar el cursor */
+}
 
 /* About Page */
 .about-page .hero {
@@ -68,10 +84,10 @@ footer {
     top: 30%;
     left: 50%; 
     transform: translateX(-50%);
-    color:#1E6091;
-    font-size: 2.5rem;
+    color:white;
+    font-size: 3.5rem;
     font-weight: bold;
-    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.7);
+
 }
 
 /* FLOATING BOX */
@@ -92,7 +108,7 @@ footer {
 .floating-box p {
     flex: 1; /* Ocupa el espacio disponible */
     font-size: 1rem;
-    color: #1E6091;
+    color: black;
 }
 
 .floating-box .float-img {
@@ -178,7 +194,13 @@ footer {
     flex-wrap: wrap;
     padding: 20px;
 }
-
+.team h2 {
+    width: 100%; /* Ocupa toda la fila para estar encima de las imágenes */
+    text-align: center; /* Centra el texto */
+    margin-bottom: 20px; /* Espacio entre el título y las imágenes */
+    font-size: 2rem;
+    color: black;
+}
 .employee {
     text-align: center;
 }
