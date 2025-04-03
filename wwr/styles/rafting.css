@@ -51,7 +51,7 @@ footer {
 /* Botón Suscribir en la newsletter */
 .newsletter button {
     background-color: burlywood; /* Fondo naranja */
-    color: white; /* Texto blanco */
+    color: black; /* Texto blanco */
     border: none; /* Sin bordes */
     padding: 10px 20px; /* Espaciado interno */
     font-size: 16px; /* Tamaño de fuente */
