@@ -1,3 +1,4 @@
+
 /* General Styles */
 body {
     font-family: 'Open Sans', sans-serif;
@@ -475,6 +476,112 @@ body.trips-page {
 
 .contact-form button:hover {
     background-color: burlywood;
+}
+.trip-intro {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.trip-intro h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Trips Grid Section */
+.trip-options {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.trip-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.trip-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.trip-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.trip-card h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+.trip-card p {
+    font-size: 1em;
+    color: #555;
+    padding: 0 20px;
+}
+
+.book-now {
+    display: inline-block;
+    background-color: #025d8c;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.book-now:hover {
+    background-color: #004c75;
+    transform: scale(1.05);
+}
+
+/* Trips Table Section */
+.trips-summary {
+    padding: 40px 20px;
+    margin: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.trips-summary table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #ffffff;
+}
+
+thead {
+    background-color: #025d8c;
+    color: white;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+tbody tr:hover {
+    background-color: #d9e8f6;
 }
 /* FOOTER */
 footer {
