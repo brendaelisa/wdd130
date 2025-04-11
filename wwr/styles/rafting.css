@@ -301,6 +301,42 @@ body.trips-page {
 .book-now:hover {
     background-color: burlywood;
 }
+.trips-cta {
+    text-align: center;
+    background-color: burlywood;
+    color: black;
+    padding: 2rem 1rem;
+    margin: 3rem auto;
+    border-radius: 1rem;
+    max-width: 700px;
+}
+
+.trips-cta h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.trips-cta p {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1.5rem;
+}
+
+.cta-button.large {
+    background-color: #1E6091;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button.large:hover {
+    background-color: #76C7C0;
+}
+
 /* About Page */
 .about-page .hero {
     position: relative;
