@@ -619,7 +619,83 @@ tbody tr:nth-child(even) {
 tbody tr:hover {
     background-color: #d9e8f6;
 }
+/* Página de agradecimiento del newsletter */
+.thanks-newsletter-page .thank-you-message {
+    text-align: center;
+    padding: 4rem 1rem;
+    background-color: #f0fafc;
+}
+
+.thanks-newsletter-page .thank-you-message h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #1E6091;
+    margin-bottom: 1rem;
+}
+
+.thanks-newsletter-page .thank-you-message p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.thanks-newsletter-page .cta-button {
+    background-color: burlywood;
+    color: black;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.thanks-newsletter-page .cta-button:hover {
+    background-color: #E76F51;
+}
+
+
+
+
+
+/* Estilos exclusivos para la página de confirmación de reserva */
+.thanks-booking-page .thank-you-message {
+    text-align: center;
+    padding: 4rem 1rem;
+    background-color: #f4f9fb;
+}
+
+.thanks-booking-page .thank-you-message h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #1E6091;
+    margin-bottom: 1rem;
+}
+
+.thanks-booking-page .thank-you-message p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.thanks-booking-page .cta-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: burlywood;
+    color: black;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.thanks-booking-page .cta-button:hover {
+    background-color: #E76F51;
+}
+
 /* FOOTER */
+
 footer {
     background-color: #1E6091;
     color: white;
